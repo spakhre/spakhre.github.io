@@ -1,0 +1,45 @@
+.body{
+  background-color: cornsilk;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu {
+  margin-top: 20px;
+  margin-left: 80px;
+  list-style-type: none;
+  position: fixed;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 150px;
+  color: blueviolet;
+}
+
+.menu > li:last-of-type {
+  margin-left: 0;
+}
+
+.about-container{
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 25px;
+  color: grey;
+  margin: 5em;
+  position: absolute;
+  
+}
+
+.about-image{
+  height: 300px;
+  position: absolute;
+  right: 55%;
+  top: 10%;
+  display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+  
+}
