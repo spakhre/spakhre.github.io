@@ -1,9 +1,15 @@
-.body{
-  background-color: cornsilk;
+body{
+  background-color: lightskyblue;
 }
 
 a{
   text-decoration: none;
+}
+
+h4{
+  font-size: 20px;
+  font-family: monospace;
+  color: blueviolet;
 }
 
 .menu {
@@ -34,12 +40,12 @@ a{
 
 .about-image{
   height: 300px;
-  position: absolute;
-  right: 55%;
-  top: 10%;
   display: flex;
-}
+  border-color: lime;
+   }
 
-@media only screen and (max-width: 400px) {
-  
-}
+  .text-intro{
+    text-align: center;
+    color: grey;
+  }
+
